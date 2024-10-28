@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header, main, aside, footer {
+            display: flex;
+            align-items: upper;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 3em;
+        }
+        header {
+            background-color: blue;
+            color: white;
+            justify-content: flex-start;
+            height: 20vh;
+        }
+        main {
+            background-color: lightblue;
+            color: black;
+            flex: 1;
+            justify-content: flex-start;
+        }
+        aside {
+            background-color: skyblue;
+            color: black;
+            flex: 1;
+            justify-content: flex-start;
+        }
+        footer {
+            background-color: beige;
+            color: black;
+            justify-content: flex-start;
+            height: 20vh;
+        }
+        .content {
+            display: flex;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <div class="content">
+        <main>Main</main>
+        <aside>Aside</aside>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
