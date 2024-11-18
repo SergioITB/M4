@@ -1,0 +1,23 @@
+body {
+    background: aqua;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .rojo {
+    color: red;
+  }
+  
+  .azul {
+    color: blue;
+  }
+  
+  .plata {
+    background: silver;
+  }
+  
+  .derecha {
+    text-align: right;
+  }
+  
